@@ -1,5 +1,129 @@
 {% extends "base.html" %}
 
 {% block page_content %}
-<h2>hi</h2>
+<style>
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+</style>
+<div class="container-fluid">
+    <div class="container">
+        <h2>CitSci India</h2>
+    </div>
+    <hr/>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="\img\testimage.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <div class="container">
+        <h2>We invite you to proudly be a part of science! </h2>
+        <ul>
+            <li>
+                CitSci India is a platform aimed at introducing Citizen Science to you, a modern and democratic way of doing research. 
+                Here you can learn about different projects, use tools, attend training and consume materials..  
+                We hope this will enlighten the scientist within you!
+
+            </li>
+        </ul>
+        <h2>What is citizen science?</h2>
+        <ul>
+            <li>
+                Citizen science is the collection and analysis of data relating to the natural world by members of the general public, 
+                in collaboration with professional scientists. People can contribute to scientific research of various disciplines such as astronomy, 
+                natural history, biodiversity, etc. Check out the Tools page to learn how to participate. 
+            </li>
+        </ul>
+        <div class="card w-50">
+            <div class="card-body">
+              <h5 class="card-title">n  No. of projects</h5>
+              <p class="card-text"> That is carrying out scientific research involving citizens 
+              </p>
+              
+            </div>
+          </div>
+          <br/>
+
+          <div class="card w-50">
+            <div class="card-body">
+              <h5 class="card-title">n no. of platforms </h5>
+              <p class="card-text"> 
+                Platforms will provide you with the backbone to start a CitSci project on your own or to be a part of a currently running one.                
+              </p>
+              
+            </div>
+          </div>
+
+          <br/>
+
+          <div class="card w-50">
+            <div class="card-body">
+              <h5 class="card-title">n no. of resources</h5>
+              <p class="card-text"> 
+                Which will help you conquer the art of citizen science  
+              </p>
+              
+            </div>
+          </div>
+
+          <br/>
+
+          <div class="card w-50">
+            <div class="card-body">
+              <h5 class="card-title">n no. of training materials</h5>
+              <p class="card-text">  
+                These are introductory videos which can be useful for newbie citizen scientists 
+                 
+              </p>
+              
+            </div>
+          </div>
+
+
+
+
+
+    </div>
+</div>
+ 
+
+
+
+
 {% endblock %}
