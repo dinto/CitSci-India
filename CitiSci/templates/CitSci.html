@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_content %}
+<div class="container-fluid">
+    <div class="container">
+        <h2>History of citizen science</h2>
+        <ul>
+            <li>
+                The first citizen science initiative was thought to begin in the late 1800s. Wells Cooke, a renowned American ornithologist started collecting data about migratory 
+                birds with the help of amateur bird enthusiasts, Later  named as North American bird phenology programme. The program lasted for about 90-years and 
+                the data collected was on cards and those cards are now being converted into digital format to study the impact of climate change on bird migration.
+            </li>
+        </ul>
+        <div class="row">
+            <div class="col" >
+                <figure>
+                    <img src="{% static '/images/wellsdata.jpg' %}" class="d-block w-100" alt="...">
+                    <figcaption>(Data card used for North American bird phenology program)</figcaption>
+
+                </figure>
+            </div>
+            <div class="col-3" style="border-right: 0;">
+                <img src="{% static '/images/wells.jpg' %}" class="d-block w-100" alt="...">
+            </div>
+        </div>
+
+        <ul>
+            <li>
+                In 1994, the first known publication on citizen science was accomplished by Alan irwin (Irwin et al., 1994). Later on, citizen science gained traction significantly. 
+                With an unprecedented number of people having access to the internet and smartphones, Citizen science opens up enormous possibilities to gather large-scale data effectively. 
+            </li>
+        </ul>    
+        <h2>Emerging Citizen science in India</h2>
+        <ul>
+            <li>
+                Even though India has seen many citizen science programmes in the past, 
+                eBird India run by the Bird count India programme become the milestone of Indian citizen science.
+                 Its popularity and ease of usage attracted the bird watching community resulting in the growth of CitSci in India. India is a country 
+                 with high population with most of them having acces to internet and smartphones. This opens up immense potential for the use of Citizen science 
+                 in research and policy making. There are many such projects running nationwide  and you can chech out them on the PROJECTS page
+
+                            
+            </li>
+        </ul>  
+
+
+    </div>
+</div>
+
+
+{% endblock %}

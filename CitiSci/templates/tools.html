@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_content %}
+<div class="container-fluid">
+    <div class="container">
+        <h2>How does it work?</h2>
+        <h4>For doing citizen science we need two important components, a Platform and a project.</h4>
+
+        <ul>
+            <li>
+                Platforms
+            </li>
+            <h4>
+                Platforms are websites, applications or even online forms which can be used to collect and organise data from volunteers. 
+                iNaturalist, eBird, google forms, kobo collect and social media platforms etc. are examples of freely available platforms to collect data. 
+                Some platforms let you create your own project of interest, some other platforms invite you to contribute to the projects they have already initiated. 
+            </h4>
+        </ul>
+        <h2>Some of the most popular platforms are listed here. You can check out the training page to learn more about how to use each of these platforms.</h2>
+        <div class="row">
+            <div class="col" >
+                <ul>
+                    <li>
+                        <h1>Social media</h1>
+                        Social media is a great opportunity to collect data from the masses.
+                         There are many social media groups such as “Bird watchers of Kerala'' aimed at sharing biodiversity information.
+                          You can create a page and invite others to share the data of your interest or share online forms through social media
+        
+                    </li>
+                </ul>
+            </div>
+            <div class="col" >
+                <img src="{% static '/images/social.jpg' %}" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" >
+                <img src="{% static '/images/ebird.jpg' %}" class="d-block w-100" alt="...">
+            </div>
+            <div class="col" >
+                <ul>
+                    <li>
+                        <h1>eBIRD</h1>
+                        eBird is a project of the Cornell lab of ornithology co founded by the Audobon society. ‘Bird count India’ handle the India specific platform. eBird doesn't lets you create your own projects, You can contribute to their projects such as the  Great backyard bird count, Bird atlas etc. or just submit your locality specific data on your own. The collected data can be accessed publicly. 
+eBird India: https://ebird.org/india/home
+
+        
+                    </li>
+                </ul>
+            </div>
+ 
+        </div>
+
+
+
+{% endblock %}
