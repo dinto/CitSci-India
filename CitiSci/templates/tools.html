@@ -2,6 +2,14 @@
 {% load static %}
 
 {% block page_content %}
+<style>
+    .row {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 5%;
+}
+
+</style>
 <div class="container-fluid">
     <div class="container">
         <h2>How does it work?</h2>
@@ -31,19 +39,21 @@
                 </ul>
             </div>
             <div class="col" >
-                <img src="{% static '/images/social.jpg' %}" class="d-block w-100" alt="...">
+                <img src="{% static '/images/social.jpg' %}"  class="d-block w-100" alt="...">
             </div>
         </div>
+        <hr/>
         <div class="row">
             <div class="col" >
-                <img src="{% static '/images/ebird.jpg' %}" class="d-block w-100" alt="...">
+                <img src="{% static '/images/ebird.jpg' %}"  class="d-block w-100" alt="...">
             </div>
             <div class="col" >
                 <ul>
                     <li>
                         <h1>eBIRD</h1>
                         eBird is a project of the Cornell lab of ornithology co founded by the Audobon society. ‘Bird count India’ handle the India specific platform. eBird doesn't lets you create your own projects, You can contribute to their projects such as the  Great backyard bird count, Bird atlas etc. or just submit your locality specific data on your own. The collected data can be accessed publicly. 
-eBird India: https://ebird.org/india/home
+                        <br/>
+                        eBird India:<a  href="https://ebird.org/india/home">https://ebird.org/india/home</a> 
 
         
                     </li>
@@ -51,7 +61,80 @@ eBird India: https://ebird.org/india/home
             </div>
  
         </div>
+        <hr/>
+        <div class="row">
+            <div class="col" >
+                <ul>
+                    <li>
+                        <h1>iNaturalist</h1>
+                        Here you can create your own projects. You can invite people to join the project by sharing the URL or keep it open for all. 
+                        Also anyone can access area specific or taxa specific data easily.  More than 5.5 million users are contributing to iNaturalist and
+                        have recorded more than hundred million observations so far. 
+                        <br/>
+                        iNaturalist: <a  href="https://www.inaturalist.org">https://www.inaturalist.org</a>  
+
+        
+                    </li>
+                </ul>
+            </div>
+            <div class="col" >
+                <img src="{% static '/images/inat.jpg' %}"  class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <hr/>
 
 
+        
+        <div class="row">
+            <div class="col" >
+                <img src="{% static '/images/kobo.jpg' %}" class="d-block w-100" alt="...">
+            </div>
+            <div class="col" >
+                <ul>
+                    <li>
+                        <h1>KoboToolbox</h1>
+                        The Kobotoolbox is an open source tool for collecting data mainly relating to humanitarian activities with unlimited storage. 
+                        Currently the platform also provides a toolbox for researchers. 
+                        Its versatile features such as drop down menu, skip logic and validation makes it one of the most effective data collection tools available for free. 
+
+        
+                    </li>
+                </ul>
+            </div>
+ 
+        </div>
+        <hr/>
+
+        
+        <div class="row">
+            <div class="col" >
+                <img src="{% static '/images/googleform.jpg' %}"   class="d-block w-100" alt="...">
+            </div>
+            <div class="col" >
+                <ul>
+                    <li>
+                        <h1>Google form</h1>
+                        Google form can be a very versatile way of collecting data. Owned by the tech giant Google, 
+                        google forms are free to use for personal needs and can be stored using our own personal cloud storage.
+                         No app is required at both the end, sender and receiver. Google forms are not purpose built for collecting biodiversity data. 
+                         But there are several options to customise it accordingly.
+
+
+        
+                    </li>
+                </ul>
+            </div>
+ 
+        </div>
+        <div>
+            <p>
+                There are many other platforms such as Biodiversity atlas, Butterflies of India etc. 
+                These platforms don't let you create your own project, instead these act as a project itself.
+                 We can contribute biodiversity data to these projects, also anyone can download the desired data. 
+                 These platforms/projects store their own recordings and act as a repository also. So it's hard to differentiate these platforms based on their purpose as platforms,
+                  projects or repositories. Details of which are discussed in the Projects page. 
+
+            </p>
+        </div>
 
 {% endblock %}
