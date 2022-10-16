@@ -1,1 +1,1 @@
-web:gunicron CitSciIndia.wsgi
+web: gunicron CitSciIndia.wsgi
